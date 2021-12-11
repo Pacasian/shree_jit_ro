@@ -1,4 +1,5 @@
 
+// Defining the schema
 const mongoose=require('mongoose');
 
 const roosterDataSchema = mongoose.Schema({
@@ -44,5 +45,5 @@ const roosterDataSchema = mongoose.Schema({
     },
 });
 
-
+//Compiling the model
 module.exports = mongoose.model("roosterdatas", roosterDataSchema);
