@@ -1,3 +1,4 @@
+// Defining the schema
 const mongoose=require('mongoose');
 
 const logDataSchema = mongoose.Schema({
@@ -11,5 +12,7 @@ const logDataSchema = mongoose.Schema({
         type:String,
     }
 });
+
+//Compiling the model
 
 module.exports = mongoose.model("logdatas", logDataSchema);
