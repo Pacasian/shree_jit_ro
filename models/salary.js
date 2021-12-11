@@ -1,4 +1,4 @@
-
+// Defining the schema
 const mongoose=require('mongoose');
 
 const salDataSchema = mongoose.Schema({
@@ -18,4 +18,7 @@ const salDataSchema = mongoose.Schema({
         type:String,
     }
 });
+
+//Compling the model
+
 module.exports = mongoose.model("saldatas", salDataSchema);
