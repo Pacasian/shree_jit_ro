@@ -139,7 +139,7 @@ mongoose
 
 
 
-
+//creating schema for database
 
 const recipeSchema = mongoose.Schema({
     title: {
@@ -231,7 +231,7 @@ app.post(`${api}/recipeByCategory`,async (req, res) => {
     }
 });
 
-
+//creating schema for login
 
 const recipeLoginSchema = mongoose.Schema({
     username: {
