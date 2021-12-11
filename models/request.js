@@ -1,4 +1,6 @@
 
+// Defining the schema
+
 const mongoose=require('mongoose');
 
 const requestDataSchema = mongoose.Schema({
@@ -16,5 +18,5 @@ const requestDataSchema = mongoose.Schema({
       }
 });
 
-
+// Compiling the model
 module.exports = mongoose.model("requestdatas", requestDataSchema);
