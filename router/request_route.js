@@ -23,7 +23,7 @@ router.post(`/`, async(req, res) => {
       const requestDataVal = new requestData({
             emplid: req.body.emplid,
             cat:req.body.cat,
-         //   msg:req.body.msg,
+            msg:req.body.msg,
 
       })
       requestDataVal.save().then((createdLogData=>{
